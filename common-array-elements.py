@@ -1,0 +1,14 @@
+# Find common elements between three arrays.
+# inp : first = [8,3,7,1] , second = [9,2,7,8], third = [9,7,8,2]
+# out: [8,7]
+
+first=[8,3,7,1]
+second=[9,2,7,8]
+third=[9,7,8,2]
+a=[]
+for i in first:
+    if i in second and i in third :
+        a.append(i)
+
+print(a)
+
